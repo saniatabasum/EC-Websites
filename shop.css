@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+.container{
+    border: solid;
+    height: 610px;
+}
+.Top{
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    height: 50px;
+}
+#p1{
+    font-size:16px;
+}
+#ss{
+    font-size:30px;
+    line-height:50px ;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+#BB{
+    height: 20px;
+    width: 100px;
+    margin-top: 15px;
+}
+ul li{
+    display: inline-flex;
+}
+#left{
+    font-size: x-large;
+}
+#right1{
+    margin-right: 100px;
+    margin-left: 500px;
+}
+#right2{
+    margin-right: 20px;
+    margin-left: 290px;
+}
+#right3{
+    margin-right: 20px;
+}
+#right4{
+    margin-right: 20px;
+}
+nav{
+    border: solid;
+    height: 40px;
+    display:flex;
+}
+#b1{
+    margin: 0 30px;
+    line-height: 10px;
+}
+.Content{
+    border: solid;
+    height: 230px;
+}
+#box{
+    display: inline-flex;
+    border: solid;
+}
