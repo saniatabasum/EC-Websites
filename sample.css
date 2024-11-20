@@ -8,19 +8,6 @@ header{
         font-style: normal;
     
 }
-   nav ul li{
-    display: inline-block;
-   }
-   nav{
-    text-align: center;
-   }
-   
-   a{
-    text-decoration: none;
-    color: black;
-   }
-
-   li{
-    margin: 0 50px;
-    font-size: ;
-   }
+#navbar-brand{
+ color: red;
+}
