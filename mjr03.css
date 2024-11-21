@@ -4,7 +4,7 @@ body{
 .container{
     background-color: aliceblue;
     border: solid;
-    height: 1815px;
+    height: 2815px;
 }
 ul li{
     display: inline-flex;
@@ -147,9 +147,13 @@ ul li{
     width: 100px;
     background-color: darkcyan;
 }
+/* #row{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+} */
 .section2{
     background-color: white;
-    border: solid;
+    /* border: solid; */
     height: 160px;
     display:grid;
     grid-template-columns: auto auto auto auto auto auto auto auto;
@@ -157,6 +161,7 @@ ul li{
     text-align: center;
     line-height: 30px;
 }
+
 #box2{
     border: solid white;
     width: 100px;
@@ -203,9 +208,97 @@ ul li{
     color: black;
 }
 .section4{
-    border: solid;
-    height: 500px;
+    display: inline-flex;
+    margin-left: 480px;
+}
+#CC{
+    padding-top: 10px;
+    text-align: center;
+    color: darkcyan;
+    font-size: 30px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#CC1{
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.section5{
+    height: 350px;
     width: 1190px;
     margin-left:70px;
-    /*  */
+    overflow-y:auto;
+    display: inline-flex;
+    padding-top: 20px;
+}
+.image{
+    border-radius: 5px;
+}
+.card2{
+    margin-left: 30px;
+}
+.card3{
+    margin-left: 30px;
+}
+.card4{
+    margin-left: 30px;
+}
+.card5{
+    margin-left: 30px;
+}
+.Title{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:800px;
+    font-style: normal;
+    font-size: 18px;
+    color: darkcyan;
+    margin-left: 10px;
+}
+.Text{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.section6{
+    display: inline-flex;
+    margin-left: 530px;
+}
+#cc{
+    padding-top: 10px;
+    text-align: center;
+    color: darkcyan;
+    font-size: 30px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#cc1{
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.section6{
+   
+}
+#mini{
+    display: flex;
+    flex: auto auto auto auto auto;
+    overflow-anchor: 500px;
+    padding: 0;
+}
+#image1{
+    border: solid;
+    height: 70px;
+    width: 220px;
+    
 }

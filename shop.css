@@ -166,3 +166,15 @@ nav{
     margin-right: 90px;
     /* margin-left: 50px; */
 }
+.fa-twitter{
+    font-size: 30px;
+    color: rgb(10, 170, 245);
+}
+.fa-youtube{
+    font-size: 30px;
+    color: red;
+}
+.fa-facebook{
+    font-size: 30px;
+    color: rgb(10, 119, 245);
+}
