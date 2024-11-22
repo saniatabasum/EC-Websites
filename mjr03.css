@@ -4,14 +4,14 @@ body{
 .container{
     background-color: aliceblue;
     border: solid;
-    height: 2815px;
+    height: 3320px;
 }
 ul li{
     display: inline-flex;
     /* padding: 10px; */
 }
 .top{
-    background-color: darkcyan;
+    background-color: rgb(0, 120, 160);
     /* border: solid; */
     height: 50px;
     width: 1150px;
@@ -77,13 +77,13 @@ ul li{
     /* line-height: 30px; */
 }
 #line1{
-    color: darkcyan;
+    color: rgb(0, 120, 160);
     font-size: xx-large;
     /* line-height: 50px; */
     padding: 20px 0 0 0;
 }
 #line2{
-    color: darkcyan;
+    color: rgb(0, 120, 160);
 }
 .section{
     background-color: white;
@@ -110,7 +110,7 @@ ul li{
     height: 290px;
     border-radius: 50px;
     background-color: aliceblue;
-    color: darkcyan;
+    color: rgb(0, 120, 160);
     width: 450px;
     padding-top: 40px;
     padding-left: 30px;
@@ -131,7 +131,7 @@ ul li{
     font-size: 20px;
 }
 #L111{
-    color: darkcyan;
+    color: rgb(0, 120, 160);
     font-size:x-large;
     padding: 0;
 }
@@ -145,7 +145,7 @@ ul li{
     margin-left: 200px;
     height: 40px;
     width: 100px;
-    background-color: darkcyan;
+    background-color: rgb(0, 120, 160);
 }
 /* #row{
     display: grid;
@@ -190,7 +190,7 @@ ul li{
      height: 250px;
      width: 450px;
      padding: 10px;
-     color: darkcyan;
+     color: rgb(0, 120, 160);
     font-size:40px;
 }
 #box5{
@@ -200,7 +200,7 @@ ul li{
      height: 250px;
      width: 450px;
      padding: 10px;
-     color: darkcyan;
+     color: rgb(0, 120, 160);
     font-size:40px;
 }
 #p1{
@@ -214,7 +214,7 @@ ul li{
 #CC{
     padding-top: 10px;
     text-align: center;
-    color: darkcyan;
+    color: rgb(0, 120, 160);
     font-size: 30px;
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
@@ -258,7 +258,7 @@ ul li{
     font-weight:800px;
     font-style: normal;
     font-size: 18px;
-    color: darkcyan;
+    color: rgb(0, 120, 160);
     margin-left: 10px;
 }
 .Text{
@@ -272,7 +272,7 @@ ul li{
 #cc{
     padding-top: 10px;
     text-align: center;
-    color: darkcyan;
+    color: rgb(0, 120, 160);
     font-size: 30px;
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
@@ -287,18 +287,216 @@ ul li{
     font-weight: 400;
     font-style: normal;
 }
-.section6{
-   
+#image1{
+    /* border: solid; */
+    height: 50px;
+    width: 220px;
+}
+.section8{
+    padding: 10px;
+}
+#view1{
+    padding: 5px;
+    text-align: center;
+    margin-left: 620px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(0, 120, 160);
+}
+.section9{
+    margin-left:490px ;
+}
+#c{
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(0, 120, 160);
+    font-size: 30px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#c1{
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #mini{
-    display: flex;
-    flex: auto auto auto auto auto;
-    overflow-anchor: 500px;
-    padding: 0;
+    display: inline-flex;
+    margin-right: 10px;
+    overflow-inline: 500px;
 }
-#image1{
+.section10{
+    margin-top: 40px;
+    background-color: rgb(22, 126, 165);
+    /* border: solid; */
+    height: 300px;
+}
+.comm{
+    display: inline-flex;
+}
+#eve{
+    padding-top: 10px;
+    color: white;
+    font-size: 30px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.slide{
     border: solid;
-    height: 70px;
-    width: 220px;
+    height: 150px;
+    width: 350px;
+    display: inline-flex;
+    grid-template-columns: auto auto auto;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+.tub{
+    background-color:rgb(59, 130, 246, .5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    height: 40px;
+    width: 50px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.ROE{
+    color: white;
+    padding-left: 15px;
+}
+#co{
+    color:lightskyblue;
+}
+#view2{
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 980px;
+    font-size: 20px;
+    color: white;
+}
+#gllo{
+    padding-top: 10px;
+    color: rgb(0, 120, 160);
+    font-size: 30px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 610px;
+}
+/* #carouselExampleSlidesOnly{
+    height: 250px;
+    width: 1210px;
+
+} */
+.carousel-inner{
+    /* border: solid; */
+    height: 210px;
+    width: 1340px;
+    display: inline-flex;
+    overflow-y:auto;
     
+}
+#glry{
+    border-radius: 20px;
+    height: 170px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.section13{
+    border: solid;
+    height: 350px;
+    margin-top: 20px;
+}
+#test{
+    padding-top: 10px;
+    color: rgb(0, 120, 160);
+    font-size: 30px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 590px;
+}
+#box6{
+    display:inline-flex ;
+    border: solid;
+    margin-left: 70px;
+    margin-top: 10px;
+    height: 260px;
+    padding: 10px;
+    width: 560px;
+}
+.section14{
+    background-color: rgb(22, 126, 165);
+    /* border: solid; */
+    height: 390px;
+    width: 1340px;
+    margin-top: 10px;
+    display: inline-flex;
+}
+#box8{
+    /* border: solid; */
+    height: 300px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 120px;
+    grid-template-columns:auto auto;
+}
+#box9{
+    /* border: solid; */
+    height: 300px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 150px;
+    grid-template-columns:auto auto;
+}
+#logo{
+    position: relative;
+    bottom: 10px;
+    top: 20px;
+    left: 140px;
+    padding: 10px 0;
+    height: 170px;
+    width: 200px;
+}
+#pop{
+    /* border: solid; */
+    height: 120px;
+    margin-left: 70px;
+    width:350px ;
+    text-align: center;
+    font-size: 20px;
+}
+#abc{
+   font-size: x-large;
+}
+#pop1{
+    /* border: solid; */
+    height: 80px;
+    margin-left: 25px;
+    width:350px ;
+    /* text-align: center; */
+    font-size:25px;
+}
+#pop2{
+    margin-left: 25px;
+    margin-top: 50px;
+    font-size: x-large;
+}
+#pop3{
+    margin-left: 25px;
+    margin-top: 30px;
+    font-size: x-large;
+}
+#copyy{
+    background-color: rgb(22, 126, 165);
+    text-align: center;
 }
