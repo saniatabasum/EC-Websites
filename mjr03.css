@@ -3,8 +3,8 @@ body{
 }
 .container{
     background-color: aliceblue;
-    border: solid;
-    height: 3320px;
+    /* border: solid; */
+    height: 3125px;
 }
 ul li{
     display: inline-flex;
@@ -14,45 +14,41 @@ ul li{
     background-color: rgb(0, 120, 160);
     /* border: solid; */
     height: 50px;
-    width: 1150px;
-    margin-left: 100px;
-    display: inline-flex;
+    width: 90%;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    left: 70px;    
 }
-#h11{
-    margin-left: 450px;
-    margin-right: 10px;
+#navL{
+    float: left;
+    margin: 0 20px;
 }
-#h11:hover{
-    background-color: rgb(163, 243, 243);
-    border-radius: 2px;
+#call1{
+    position: relative;
+    float: left;
+    top: 16px;
+    size: 15px;
+    /* right: 200px; */
+}
+#mail1{
+    position: relative;
+    float: left;
+    top: 16px;
+    size: 15px;
+}
+#nav1{
+    float: right;
+    margin: 0 30px;
+    text-decoration: none;
+}
+#nav1:hover{
+    background-color: lightblue;
+     color: aliceblue;
+     border-radius: 5px;
     font-size: 20px;
-}
-#h111{
-    margin-right: 10px;
-}
-#h111:hover{
-    background-color: rgb(163, 243, 243);
-    border-radius: 2px;
-    font-size: 20px;
-}
-#h1111{
-    margin-right: 10px;
-}
-#h1111:hover{
-    background-color: rgb(163, 243, 243);
-    border-radius: 2px;
-    font-size: 20px;
-}
-#h11111{
-    margin-right: 10px;
-}
-#h11111:hover{
-    background-color: rgb(163, 243, 243);
-    border-radius: 2px;
-    font-size: 20px;
-}
-#h1{
-    margin-right: 10px;
+    height: 50px;
+    
 }
 .content{
     display: flex;
@@ -105,54 +101,67 @@ ul li{
     display: flex;
     /* border: solid; */
     margin-top: 10px;
+    margin-right:290px;
 }
-#box{
-    height: 290px;
-    border-radius: 50px;
-    background-color: aliceblue;
+.section01{
+    display: flex;
+    
+    /* margin-right: 100px; */
+}
+.card-body0{
+    border-radius: 10px;
     color: rgb(0, 120, 160);
-    width: 450px;
-    padding-top: 40px;
-    padding-left: 30px;
-    font-size:x-large;
-}
-#box1{
-    background-color: aliceblue;
-    border-radius: 70px;
-    height: 330px;
+    border: solid rgb(145, 207, 228);
+    justify-content: space-between;
+    margin-left :50px;
     margin-top: 10px;
+    height:280px;
+    padding-left: 10px;
     width: 350px;
-    /* padding-top: 30px; */
-    /* padding-left: 30px; */
-    font-size:x-large;
 }
-#li{
+.card-text0{
+    font-size: larger;
     color: black;
-    font-size: 20px;
 }
-#L111{
+.card-body1{
+    border-radius: 10px;
     color: rgb(0, 120, 160);
-    font-size:x-large;
-    padding: 0;
+    border: solid rgb(145, 207, 228);
+    justify-content: space-between;
+    margin-left :200px;
+    height:280px;
+    padding-left: 20px;
+    width: 350px;
+    margin-top: 10px;
+}
+.card-text1{
+    color: black;
 }
 #l111{
+    color: black;
     font-size: 20px;
     margin-top: 5px;
     /* margin-left: 10px; */
 }
 #view{
-    border-radius: 20px;
+    border-radius: 2px;
     margin-left: 200px;
-    height: 40px;
+    margin-bottom: 500px;
+    height: 30px;
     width: 100px;
-    background-color: rgb(0, 120, 160);
+    background-color: rgb(20, 138, 177);
+}
+#pop4{
+    color: black;
+    font-size: 20px;
+    font-weight: 10px;
 }
 /* #row{
     display: grid;
     grid-template-rows: auto auto auto auto auto;
 } */
 .section2{
-    background-color: white;
+    background-color: aliceblue;
     /* border: solid; */
     height: 160px;
     display:grid;
@@ -161,27 +170,99 @@ ul li{
     text-align: center;
     line-height: 30px;
 }
-
-#box2{
-    border: solid white;
+#boxo2{
+    /* border: solid white; */
     width: 100px;
     height: 150px;
     /* margin-left: 10px; */
     margin-right: 10px;
-    color: brown;
+    color: rgb(40, 40, 151);
 }
-#box3{
-    border: solid white;
+#boxo3{
+    /* border: solid white; */
     width: 120px;
     height: 150px;
     /* margin-left: 10px; */
     margin-right: 10px;
-    color: brown;
+    color: rgb(148, 104, 21);
+}
+#boxo4{
+    /* border: solid white; */
+    width: 120px;
+    height: 150px;
+    /* margin-left: 10px; */
+    margin-right: 10px;
+    color: rgb(17, 134, 180);
+}
+#boxo5{
+    /* border: solid white; */
+    width: 120px;
+    height: 150px;
+    /* margin-left: 10px; */
+    margin-right: 10px;
+    color: rgb(49, 97, 49);
+}
+#boxo6{
+    /* border: solid white; */
+    width: 120px;
+    height: 150px;
+    /* margin-left: 10px; */
+    margin-right: 10px;
+    color: gray;
+}
+#boxo7{
+    /* border: solid white; */
+    width: 120px;
+    height: 150px;
+    /* margin-left: 10px; */
+    margin-right: 10px;
+    color: rgb(245, 167, 24);
+}
+#boxo8{
+    /* border: solid white; */
+    width: 120px;
+    height: 150px;
+    /* margin-left: 10px; */
+    margin-right: 10px;
+    color: lightskyblue;
+}
+#boxo9{
+    /* border: solid white; */
+    width: 120px;
+    height: 150px;
+    /* margin-left: 10px; */
+    margin-right: 10px;
+    color: rgb(125, 125, 236);
 }
 .section3{
     display: flex;
     justify-content: space-around;
     /* margin-right: 90px; */
+}
+#Last{
+    height: 90px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.CARD{
+    border-radius: 10px;
+    border: solid rgb(145, 207, 228);
+    display: flex;
+    height: 150px;
+    width: 550px;
+}
+.CARD1{
+    border-radius: 10px;
+    border: solid rgb(145, 207, 228);
+    display: flex;
+    height: 150px;
+    width: 550px;
+}
+.card-body2{
+    margin-left: 20px;
+}
+.card-title{
+    color: rgb(6, 120, 158);
 }
 #box4{
     background-color: white;
@@ -217,7 +298,7 @@ ul li{
     color: rgb(0, 120, 160);
     font-size: 30px;
     font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
 }
 #CC1{
@@ -226,7 +307,7 @@ ul li{
     color: black;
     font-size: 30px;
     font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
 }
 .section5{
@@ -240,17 +321,21 @@ ul li{
 .image{
     border-radius: 5px;
 }
-.card2{
+#card2{
     margin-left: 30px;
+    text-decoration:none;
 }
-.card3{
+#card3{
     margin-left: 30px;
+    text-decoration:none;
 }
-.card4{
+#card4{
     margin-left: 30px;
+    text-decoration:none;
 }
-.card5{
+#card5{
     margin-left: 30px;
+    text-decoration:none;
 }
 .Title{
     font-family: "Rubik", sans-serif;
@@ -269,13 +354,16 @@ ul li{
     display: inline-flex;
     margin-left: 530px;
 }
+.section7{
+    margin-left:60px;
+}
 #cc{
     padding-top: 10px;
     text-align: center;
     color: rgb(0, 120, 160);
     font-size: 30px;
     font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
 }
 #cc1{
@@ -284,7 +372,7 @@ ul li{
     color: black;
     font-size: 30px;
     font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
 }
 #image1{
@@ -296,11 +384,13 @@ ul li{
     padding: 10px;
 }
 #view1{
+    height: 40px;
+    width: 100px;
     padding: 5px;
     text-align: center;
     margin-left: 620px;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 15px;
     color: white;
     background-color: rgb(0, 120, 160);
 }
@@ -313,7 +403,7 @@ ul li{
     color: rgb(0, 120, 160);
     font-size: 30px;
     font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
 }
 #c1{
@@ -322,7 +412,7 @@ ul li{
     color: black;
     font-size: 30px;
     font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
 }
 #mini{
@@ -344,7 +434,7 @@ ul li{
     color: white;
     font-size: 30px;
     font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
 }
 .slide{
@@ -388,7 +478,7 @@ ul li{
     color: rgb(0, 120, 160);
     font-size: 30px;
     font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
     margin-left: 610px;
 }
@@ -412,18 +502,18 @@ ul li{
     margin-left: 10px;
 }
 .section13{
-    border: solid;
+    /* border: solid; */
     height: 350px;
     margin-top: 20px;
 }
 #test{
     padding-top: 10px;
     color: rgb(0, 120, 160);
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
-    margin-left: 590px;
+    margin-left: 570px;
 }
 #box6{
     display:inline-flex ;
@@ -431,7 +521,7 @@ ul li{
     margin-left: 70px;
     margin-top: 10px;
     height: 260px;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
     width: 560px;
 }
 .section14{
@@ -488,15 +578,35 @@ ul li{
 }
 #pop2{
     margin-left: 25px;
-    margin-top: 50px;
+    margin-top: 10px;
     font-size: x-large;
 }
 #pop3{
     margin-left: 25px;
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: x-large;
 }
-#copyy{
+.section16{
     background-color: rgb(22, 126, 165);
+}
+#copyy{
     text-align: center;
+}
+#location{
+    position: relative;
+    top: 80px;
+    right: 20px;
+    size: 150px;
+}
+#mail{
+    position: relative;
+    top: 35px;
+    right: 20px;
+    size: 150px;
+}
+#call{
+    position: relative;
+    top: 35px;
+    right: 20px;
+    size: 150px;
 }
