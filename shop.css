@@ -3,13 +3,19 @@ body{
 }
 .container{
     border: solid;
-    height: 610px;
+    height: 830px;
 }
 .Top{
+    background-color: rgb(233, 50, 50);
     display: flex;
     justify-content: space-between;
     border: solid;
     height: 50px;
+    width: 1260px;
+    margin-left: 40px;
+}
+#PP{
+    background-color: rgb(241, 241, 85);
 }
 #p1{
     font-size:16px;
@@ -19,10 +25,15 @@ body{
     line-height:50px ;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 500;
     font-style: normal;
+    
+}
+#ss:hover{
+    opacity: 0.5;
 }
 #BB{
+    background-color: rgb(241, 241, 85);
     height: 20px;
     width: 100px;
     margin-top: 15px;
@@ -30,27 +41,51 @@ body{
 ul li{
     display: inline-flex;
 }
-#left{
-    font-size: x-large;
+.Head{
+    border: solid;
+    height: 30px;
+    display: inline-flex;
+    width: 1260px;
+    margin-left: 40px;
 }
-#right1{
-    margin-right: 100px;
-    margin-left: 500px;
+#left{
+    font-size:20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+#bttn{
+    margin-left: 360px;
+    line-height: 20px;
+    width: 250px;
+}
+#bttn1{
+      margin-right: 290px;
 }
 #right2{
     margin-right: 20px;
-    margin-left: 290px;
+    line-height: 30px;
 }
 #right3{
     margin-right: 20px;
+    line-height: 30px;
 }
 #right4{
     margin-right: 20px;
+    line-height: 30px;
+}
+#right5{
+    line-height: 30px;
 }
 nav{
     border: solid;
     height: 40px;
     display:flex;
+}
+#b0{
+    margin-right: 80px;
+    line-height: 10px;
 }
 #b1{
     margin: 0 30px;
@@ -58,9 +93,88 @@ nav{
 }
 .Content{
     border: solid;
-    height: 230px;
+    height: 400px;
+    display:flex;
+    /* justify-content: space-evenly; */
 }
-#box{
-    display: inline-flex;
+#box1{
+    margin-left: 40px;
     border: solid;
+    width: 250px;
+}
+#box2{
+    /* margin-left: 20px; */
+    border: solid;
+    width: 750px;
+}
+#box3{
+    /* margin-left: 20px; */
+    border: solid;
+    width: 250px;
+}
+.Foot{
+    border: solid;
+    height: 40px;
+}
+#f1{
+    margin: 0 50px;
+    line-height: 20px;
+}
+.section{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: space-around;
+}
+#box4{
+    border: solid;
+    height: 230px;
+    width: 160px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+#box5{
+    border: solid;
+    height: 230px;
+    width: 160px;
+    margin-right: 10px;
+    
+}
+#box6{
+    border: solid;
+    height: 230px;
+    width: 160px;
+    /* margin-right: 10px; */
+}
+#box7{
+    border: solid;
+    height: 230px;
+    width: 160px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#box8{
+    border: solid;
+    height: 230px;
+    width: 160px;
+    margin-right: 10px;
+    /* margin-left: 10px; */
+}
+#box9{
+    border: solid;
+    height: 230px;
+    width: 180px;
+    margin-right: 90px;
+    /* margin-left: 50px; */
+}
+.fa-twitter{
+    font-size: 30px;
+    color: rgb(10, 170, 245);
+}
+.fa-youtube{
+    font-size: 30px;
+    color: red;
+}
+.fa-facebook{
+    font-size: 30px;
+    color: rgb(10, 119, 245);
 }
