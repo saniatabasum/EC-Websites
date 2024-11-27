@@ -3,7 +3,7 @@ body{
 }
 .container{
     border: solid;
-    height: 1050px;
+    height: 4150px;
 }
 .Head{
     display: flex;
@@ -45,8 +45,8 @@ body{
 }
 .content{
     border: solid;
-    margin-top: 20px;
-    height: 300px;
+    margin: 20px 0;
+    height: 350px;
 }
 .intro{
     border: solid;
@@ -54,6 +54,132 @@ body{
     width: 500px;
     position: relative;
     float:right;
-    top: 20px;
+    top: 30px;
     margin-right: 100px;
+}
+.icon{
+    border: solid;
+    height: 40px;
+    margin-top: 10px;
+}
+#whts{
+    color: green;
+    margin: 10px 10px 10px 350px  ;
+    font-size: 30px;
+    line-height: 20px;
+}
+#fbks{
+    color: rgba(12, 44, 226, 0.815);
+    margin: 10px 10px 10px 2px;
+    font-size: 25px;
+    line-height: 20px;
+}
+#lnkd{
+    color: rgba(12, 112, 226, 0.815);
+    margin: 10px 10px 10px 2px;
+    font-size: 25px;
+    line-height: 20px;
+}
+#git{color: black;
+    margin: 10px 10px 10px 2px;
+    font-size: 25px;
+    line-height: 20px;
+}
+.about{
+    border: solid;
+    height: 300px;
+    margin-top: 10px;
+}
+#abt{
+    text-align: center;
+    position: relative;
+    bottom:10px;
+    margin: 10px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+}
+.card{
+    border: solid;
+    height: 220px;
+    width: 500px;
+    position: relative;
+    float: left;
+    margin-left: 100px;
+}
+.aside{
+    background-color: green;
+    border: solid;
+    height: 350px;
+    margin-top: 10px;
+}
+.skills{
+    position: relative;
+    float: left;
+    top: 30px;
+    margin-left: 100px;
+}
+#crs{
+    background-color: black;
+    color: white;
+    /* border: solid; */
+    height: 30px;
+    width: 250px;
+    margin: 5px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 20px;
+    line-height: 30px;
+    list-style: none;
+}
+#crs:hover{
+    color: aquamarine;
+}
+.section{
+    border: solid;
+    height: 550px;
+    /* position: relative;
+    top: 10px; */
+}
+.images{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.filling{
+    border: solid;
+    height: 450px;
+    position: relative;
+    top: 20px;
+}
+#work{
+    height: 190px;
+    width: 300px;
+}
+.nam{
+    text-align: center;
+}
+#lbl{
+    font-size: 20px;
+    font-weight: 200;
+}
+#lbl1{
+    font-size: 20px;
+    font-weight: 200;
+    position: relative;
+    float: left;
+    margin-left: 520px;
+}
+#txt{
+    margin-left: 50px;
+}
+#txt1{
+    margin-left: 40px;
+}
+#txt2{
+    height: 170px;
+    width: 250px;
+    margin-right: 400px;
 }
