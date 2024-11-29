@@ -2,32 +2,39 @@ body{
     margin: 0;
 }
 .container{
-    border: solid;
-    height: 4150px;
+    background-color: white;
+    /* border: solid  red; */
+    height: 2230px;
 }
 .Head{
     display: flex;
-    border: solid;
+    /* border: solid  red; */
     height: 70px;
+    background-color: rgb(55, 87, 55);
+    position: fixed;
+    width: 100%;
 }
 #name{
     position: relative;
     float:left;
     margin: 20px 200px;
+    color: rgb(245, 105, 6);
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
 }
-.right{
-    margin-left: 150px;
+#name:hover{
+    color: black;
+    border-radius: 5px;
 }
+
 #tml{
     display: inline-flex;
     line-height: 40px;
-    position: relative;
-    float:left;
-    margin: 0 20px;
+    /* position: relative; */
+    /* float:right; */
+    margin: 0 40px;
     font-family: "Oswald", serif;
     font-optical-sizing: auto;
     font-weight: 100px;
@@ -35,8 +42,9 @@ body{
     font-size: 20px;
 }
 #tml:hover{
-    float: left;
-    background-color: rgb(192, 236, 192);
+    /* float: left; */
+    color: rgb(245, 105, 6);
+    
     /* border: solid; */
     /* margin-right: 50px; */
     padding: 0 5px;
@@ -44,12 +52,15 @@ body{
     border-radius: 5px;
 }
 .content{
-    border: solid;
-    margin: 20px 0;
+    background-color: rgb(240, 171, 122);
+    /* border: solid  red; */
+    margin: 20px 0 0 0;
     height: 350px;
 }
 .intro{
-    border: solid;
+    color:rgb(19, 9, 83);
+    /* color: rgb(245, 105, 6); */
+    /* border: solid  red; */
     height: 250px;
     width: 500px;
     position: relative;
@@ -57,10 +68,32 @@ body{
     top: 30px;
     margin-right: 100px;
 }
+#abt0{
+    /* color: lightseagreen; */
+    text-align: center;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+}
+#abt0:hover{
+    color: lightseagreen;
+}
+#cllr:hover{
+    color:rgb(243, 220, 199) ;
+    /* color:rgb(19, 9, 83); */
+}
+p:hover{
+    color:black;
+}
 .icon{
-    border: solid;
-    height: 40px;
-    margin-top: 10px;
+    background-color: rgb(55, 87, 55);
+    /* border: solid; */
+    height: 50px;
+    position: relative;
+    top: 0px;
+   margin: 10px 0;
 }
 #whts{
     color: green;
@@ -86,22 +119,29 @@ body{
     line-height: 20px;
 }
 .about{
-    border: solid;
+    background-color: rgb(240, 171, 122);
+    /* border: solid  red; */
     height: 300px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+}
+.card{
+    color:rgb(19, 9, 83);
 }
 #abt{
     text-align: center;
     position: relative;
-    bottom:10px;
+    /* bottom:10px; */
     margin: 10px 0;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 30px;
 }
+#abt:hover{
+    color: lightseagreen;
+}
 .card{
-    border: solid;
+    /* border: solid  red; */
     height: 220px;
     width: 500px;
     position: relative;
@@ -109,10 +149,14 @@ body{
     margin-left: 100px;
 }
 .aside{
-    background-color: green;
-    border: solid;
+    background-color: rgb(55, 87, 55);
+    /* border: solid  red; */
     height: 350px;
     margin-top: 10px;
+}
+.sidebar{
+    display: flex;
+    justify-content: space-evenly;
 }
 .skills{
     position: relative;
@@ -134,13 +178,16 @@ body{
     list-style: none;
 }
 #crs:hover{
-    color: aquamarine;
+    color:rgb(158, 145, 243);
+}
+#logo{
+  height: 250px;
 }
 .section{
-    border: solid;
+    /* border: solid  red; */
     height: 550px;
-    /* position: relative;
-    top: 10px; */
+    position: relative;
+    top: 10px;
 }
 .images{
     display:grid;
@@ -148,38 +195,112 @@ body{
     gap: 30px;
     justify-content: space-evenly;
 }
-.filling{
-    border: solid;
-    height: 450px;
-    position: relative;
-    top: 20px;
-}
 #work{
     height: 190px;
     width: 300px;
 }
+.filling{
+    background-color: rgb(55, 87, 55);
+    /* border: solid  red; */
+    height: 450px;
+    position: relative;
+    top: 20px;
+    /* display: flex; */
+    justify-content: center;
+}
+.application{
+    /* border: solid; */
+    width: 450px;
+    height: 350px;
+    margin-left: 500px;
+    /* display: flex; */
+}
+
 .nam{
     text-align: center;
 }
 #lbl{
+    /* height: 50px; */
+    /* text-align: center; */
+    position: relative;
+    margin-left: 50px;
+    top:20px;
+    font-family: "Roboto", sans-serif;
+    /* background-color: aqua; */
     font-size: 20px;
-    font-weight: 200;
 }
 #lbl1{
-    font-size: 20px;
-    font-weight: 200;
     position: relative;
-    float: left;
-    margin-left: 520px;
+    margin-left: 50px;
+    top:45px;
+    font-family: "Roboto", sans-serif;
+    /* background-color: aqua; */
+    font-size: 20px;
+}
+#lbl2{
+    position: relative;
+    margin-left: 50px;
+    top:60px;
+    font-family: "Roboto", sans-serif;
+    /* background-color: aqua; */
+    font-size: 20px;
+}
+#lbl3{
+    position: relative;
+    margin-left: 50px;
+    top:70px;
+    font-family: "Roboto", sans-serif;
+    /* background-color: aqua; */
+    font-size: 20px;
 }
 #txt{
-    margin-left: 50px;
+   position: relative;
+   float: right;
+   top:5px;
+   width: 300px;
+   height: 50px;
 }
 #txt1{
-    margin-left: 40px;
+    position: relative;
+    float: right;
+    top:10px;
+    width: 300px;
+    height: 40px;
+ }
+ #txt2{
+    position: relative;
+    float: right;
+    top:20px;
+    font-size: 15px;
+    width: 302px;
+    height: 150px;
+    margin-left: 2px;
+ }
+ .foot{
+    /* border: solid  red; */
+    height: 100px;
+    background-color: rgb(240, 171, 122);
+    position: relative;
+    top: 10px;
+ }
+.icon1{
+    /* border: solid; */
+    height: 40px;
+    position: relative;
+    top: 10px;
+    margin-left: 240px;
+    /* margin-top: 10px; */
 }
-#txt2{
-    height: 170px;
-    width: 250px;
-    margin-right: 400px;
+#abt1{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+}
+#abt1:hover{
+    color: lightseagreen;
 }
